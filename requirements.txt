@@ -1,0 +1,9 @@
+Flask
+twilio
+python-dotenv
+langchain
+langchain-huggingface
+langchain-community
+langchain-groq
+langchain-core
+pydantic
