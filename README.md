@@ -42,7 +42,7 @@ This project is a Flask-based WhatsApp chatbot that uses the Twilio API to send 
 ### 3. Clone the Project Repository
 
 
-git clone https://github.com/yourusername/whatsapp-flask-chatbot.git
+git clone https:[https://github.com/harshrathod0585/Chatbot-Whatsapp-Integrated]
 cd whatsapp-flask-chatbot
 
 ---
