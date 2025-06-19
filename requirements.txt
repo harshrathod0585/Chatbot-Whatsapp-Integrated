@@ -9,3 +9,4 @@ langchain-openai
 langchain-huggingface
 langchain-groq
 faiss-cpu
+beautifulsoup4 
