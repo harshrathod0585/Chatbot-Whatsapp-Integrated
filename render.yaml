@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: llm-whatsapp-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: LANGCHAIN_API_KEY
+      - key: LANGCHAIN_PROJECT
+      - key: OPENAI_API_KEY
+      - key: HF_TOKEN
+      - key: GROQ_API_KEY
+      - key: ASTRA_DB_ID
+      - key: ASTRA_TOKEN_ID
+      - key: PINECONE_API_KEY
+      - key: NEO4J_URI
+      - key: NEO4J_USERNAME
+      - key: NEO4J_PASSWORD
+      - key: LAMINI_API_KEY
+      - key: ELEVEN_API_KEY
+      - key: TWILIO_ACCOUNT_SID
+      - key: TWILIO_AUTH_TOKEN
+      - key: TWILIO_PHONE_NUMBER
