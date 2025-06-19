@@ -7,4 +7,5 @@ langchain
 langchain-community
 langchain-openai     
 langchain-huggingface
+langchain-groq
 faiss-cpu
