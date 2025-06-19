@@ -1,9 +1,10 @@
-Flask
+flask
 twilio
 python-dotenv
+transformers
+torch
 langchain
-langchain-huggingface
 langchain-community
-langchain-groq
-langchain-core
-pydantic
+langchain-openai     
+langchain-huggingface
+faiss-cpu
