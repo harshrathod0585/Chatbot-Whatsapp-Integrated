@@ -101,7 +101,6 @@ def get_chatbot_response(message, session_id="123"):
     chain = RunnableWithMessageHistory(
         rag_chain,
         session_wise,
-        config=config,
         input_messages_key="input",
         history_messages_key="history",
         output_messages_key="answer"
@@ -135,3 +134,4 @@ def whatsapp_reply():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
